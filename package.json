@@ -1,0 +1,14 @@
+{
+  "name": "infinate-collage-server",
+  "version": "0.0.0",
+  "description": "a server",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "reivan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
