@@ -4,11 +4,20 @@
   "description": "a server",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "mocha --timeout 10000",
+    "test:watch": "mocha --watch --timeout 10000"
   },
   "author": "reivan",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2"
+    "@feathersjs/express": "^1.1.2",
+    "@feathersjs/feathers": "^3.0.5",
+    "express": "^4.16.2",
+    "feathers-memory": "^2.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5"
   }
 }
